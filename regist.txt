@@ -2,4 +2,5 @@ regist coding
 
 regist completed!!
 
+bug fixed 0.2.1
 hotfix 0.2.3 bug fixed
