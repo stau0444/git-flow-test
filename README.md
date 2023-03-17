@@ -37,3 +37,7 @@ feature -> develop -> release -> master
 
 6. git flow feature finish 기능명 -> 기능 개발을 마친 브랜치는 develop으로 merge되고 해당 브랜치가 삭제된다2
 
+
+### Trouble shooting
+
+
