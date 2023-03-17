@@ -38,6 +38,22 @@ feature -> develop -> release -> master
 6. git flow feature finish 기능명 -> 기능 개발을 마친 브랜치는 develop으로 merge되고 해당 브랜치가 삭제된다2
 
 
-### Trouble shooting
+> ### Trouble shooting
+
+#### 발생할 수 있는 문제들
+> 1. Remote에 올라간 파일 / 폴더를 삭제
+1) 서버 , 로컬 모두에서 지우고 싶은경우
+```js
+git rm -r 폴더명 or 파일명 
+```
+2) 로컬에는 남기고 서버에서만 지우고 싶은 경우
+```js
+git rm -r  --cached 폴더명 or 파일명 
+```
+
+2. 실수로 master 브랜치에서 작업
+3. 실수로 작업중인 브랜치를 삭제
+4. 특정 태그로 긴급 롤백 & 다시 hotfix
+
 
 
